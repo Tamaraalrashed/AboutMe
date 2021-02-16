@@ -3,7 +3,7 @@ body{
     margin: auto;
     justify-content: center;
     background-color: navajowhite;
-    font-family:'sans-serif';
+    font-family:'Courier New', Courier, monospace;
     
 }
 main{
@@ -27,13 +27,17 @@ p {
 
   main p:nth-child(odd) {
     color:maroon;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 5px;
   }
 span{
-    text-transform: capitalize;
-    background-color:mintcream;
+    text-transform:uppercase;
 }
+    
 footer{
-    text-align:center;
+  text-align: center;
     position: fixed;
 }
+
 
