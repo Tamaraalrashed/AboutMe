@@ -1,43 +1,52 @@
+
+* div{
+  line-height: 30px;
+}
 body{
     width: 960px;
     margin: auto;
-    justify-content: center;
+  
+    justify-content:center;
     background-color: navajowhite;
     font-family:'Courier New', Courier, monospace;
     
 }
 main{
-    justify-content: space-around;
+    display:block;
 }
 header {
+  
+  align-items: left;
+  justify-content: space-between;
+align-items: center;
+ display: flex; 
 
- width: 100%;
- text-align: center;  
- display: block;
- margin: auto; 
 }
 .header-logo{
     width: 100px;
-  display: block;
-  margin: auto;
+  
+  float: left;
 }
-p {
+
+h1 {
+  letter-spacing: 0.1em;
+  font-style: italic;
+}
+* p {
     line-height: 20px;
   } 
 
-  main p:nth-child(odd) {
-    color:maroon;
-    border-radius: 10px;
-    border-style: solid;
-    padding: 5px;
-  }
-span{
-    text-transform:uppercase;
-}
-    
+
+  
+ 
+
 footer{
   text-align: center;
-    position: fixed;
+    
 }
 
 
+body main ol {
+  color:darkred;
+  font-weight: bold;  
+}
