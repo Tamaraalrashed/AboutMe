@@ -10,7 +10,6 @@ welcomeMessage();
 function myReading(){
   let tamaraReading = prompt('Do I love reading books?', 'yes');
   tamaraReading = tamaraReading.toLowerCase();
-  console.log('users answer if I love reading books ' + tamaraReading);
 
   while (!(tamaraReading === 'y' || tamaraReading === 'yes'|| tamaraReading === 'n' || tamaraReading === 'no'))
   {
@@ -20,13 +19,13 @@ function myReading(){
 
   if (tamaraReading === 'y' || tamaraReading === 'yes')
   {
-  
+
     alert('Yes, I am into reading books, excellent, you know something interesting about me');
     scoreAa=scoreAa+1;
 
   }
   else {
-  
+
     alert('Wrong, WHY you dont know that I am into Books:(');
   }
 }
@@ -45,12 +44,11 @@ function myFavouriteColor () {
 
   if (tamaraColor === 'y' || tamaraColor === 'yes')
   {
-    
     alert('Wrong! WHY do you think that I have? actually I dont have a particular color to like' );
 
   }
   else {
-    
+
     alert('True,You have a good idea about me, I love most of colors :)');
     scoreAa= scoreAa+1;
 
@@ -62,7 +60,7 @@ myFavouriteColor();
 function myHand(){
   let tamaraHand = prompt('Do I a left-handed ?', 'yes');
   tamaraHand = tamaraHand.toLowerCase();
-  console.log('users answer if I am left-handed ? ' + tamaraHand);
+
   while (!(tamaraHand === 'y' || tamaraHand === 'yes'|| tamaraHand === 'n' || tamaraHand === 'no'))
   {
     alert('Please answer with yes/no');
@@ -71,12 +69,10 @@ function myHand(){
 
   if (tamaraHand === 'y' || tamaraHand === 'yes')
   {
-  //console.log('Yup,I am left-handed :)' );
     alert('Yup,I am left-handed :)' );
     scoreAa= scoreAa+1;
   }
   else {
-  //console.log('Oops,WHY you dont know that Iam left-handed !');
     alert('Oops,WHY you dont know that Iam left-handed !');
   }
 }
@@ -84,7 +80,6 @@ myHand();
 function myEducation() {
   let tamaraEducation = prompt('Am I a civil engineer?', 'yes');
   tamaraEducation = tamaraEducation .toLowerCase();
-  console.log('users answer if I am civil engineer? ' + tamaraEducation);
 
   while (!(tamaraEducation === 'y' || tamaraEducation === 'yes'|| tamaraEducation === 'n' || tamaraEducation === 'no'))
   {
@@ -94,11 +89,9 @@ function myEducation() {
 
   if (tamaraEducation === 'y' || tamaraEducation === 'yes')
   {
-  //console.log('Sorry, I am not! I am an electrical engineer!' );
     alert('Sorry, I am not! I am an electrical engineer!' );
   }
   else {
-  //console.log('Well done:) ,I am an electrical engineer');
     alert('Well done:) ,I am an electrical engineer');
     scoreAa= scoreAa+1;
   }
@@ -107,7 +100,6 @@ myEducation();
 function myExperience() {
   let tamaraExperience = prompt('Do I have work experience in my major?', 'yes');
   tamaraExperience = tamaraExperience .toLowerCase();
-  console.log('users answer if I have work experience in my major? ' + tamaraExperience);
 
   while (!(tamaraExperience === 'y' || tamaraExperience === 'yes'|| tamaraExperience === 'n' || tamaraExperience === 'no'))
   {
@@ -117,12 +109,10 @@ function myExperience() {
 
   if (tamaraExperience === 'y' || tamaraExperience === 'yes')
   {
-  //console.log('Yes, I have 6 years experience.' );
     alert('Yes,'+userName+ ' I have 6 years experience.' );
     scoreAa= scoreAa+1;
   }
   else {
-  //console.log('Sorry' + userName+ 'but I have work experience.');
     alert('Sorry ' + userName+ ', but I have work experience.');
   }
 }
