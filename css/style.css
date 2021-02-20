@@ -3,7 +3,7 @@
   line-height: 30px;
 }
 body{
-    width: 960px;
+    width: 80%;
     margin: auto;
   
     justify-content:center;
@@ -32,20 +32,34 @@ h1 {
   letter-spacing: 0.1em;
   font-style: italic;
 }
-* p {
-    line-height: 20px;
-  } 
 
-
-  
+  .n1, .n2, .n3, .n4 {
+border-style: dotted;    
+text-align: center;
+    border-radius: 70%;
+    padding: 10px;
+    font-style: italic;
+  font-weight: 700;
+    
+  }
  
 
 footer{
   text-align: center;
+  font-weight: bold;
     
 }
 
 
+ .intro:first-letter {
+  font-size: 150%;
+  font-weight: bold;
+  
+}
+
+.intro{
+  font-weight: bold;
+}
 body main ol {
   color:darkred;
   font-weight: bold;  
